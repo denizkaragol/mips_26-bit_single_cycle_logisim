@@ -22,8 +22,6 @@ This project implements a single-cycle MIPS processor using Logisim. It demonstr
 ## Architecture
 The processor is based on a standard single-cycle datapath. Each instruction is completed in one clock cycle. The control unit generates the required control signals to manage data flow between components.
 
-## Datapath Diagram
-![Datapath](screenshots/datapath.png)
 
 ## How It Works
 1. The Program Counter (PC) fetches the instruction from instruction memory  
@@ -32,4 +30,4 @@ The processor is based on a standard single-cycle datapath. Each instruction is 
 4. The ALU performs the operation  
 5. The result is written back to the register file or memory  
 
-## Example
+
